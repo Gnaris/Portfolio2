@@ -2,12 +2,13 @@ import React, { FunctionComponent } from "react";
 import Header from "../components/Header";
 import Image from "next/image";
 import Link from "next/link";
+import Main from "../components/Main";
 
 const index: FunctionComponent = () => {
   return (
     <div>
       <Header />
-      <main className="home">
+      <Main>
         <div className="home-container">
           <div className="home-content">
             <h1 className="home-title">
@@ -23,10 +24,10 @@ const index: FunctionComponent = () => {
             </Link>
           </div>
           <div className="home-img">
-            <Image src={"/Robot.webp"} alt={"Slime"} width={500} height={400} />
+            <Image src={"/human.png"} alt={"Slime"} width={500} height={400} />
           </div>
         </div>
-      </main>
+      </Main>
     </div>
   );
 };

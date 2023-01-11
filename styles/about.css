@@ -1,0 +1,41 @@
+.about-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 75%;
+}
+
+.about-main-title {
+  color: var(--secondary);
+  font-size: clamp(3vw, 10vw, 50px);
+  font-family: var(--sarpanch);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.about-main-container > p {
+  color: var(--primary);
+  font-family: var(--poppins);
+}
+.about-main-paragraphe {
+  font-size: clamp(16px, 5vw, 25px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.user-word {
+  color: var(--tertiary);
+}
+
+@media screen and (max-width: 600px) {
+  .about-main-container {
+    width: 90%;
+  }
+  .about-main-title {
+  }
+  .about-main-paragraphe {
+    text-align: left;
+  }
+}

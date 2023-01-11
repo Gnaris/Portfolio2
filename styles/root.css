@@ -8,9 +8,9 @@
 }
 
 :root {
-  --text: #6d7981;
-  --interact: #5495c1;
-  --text-link: #ffff;
+  --primary: #6d7981;
+  --secondary: #ffff;
+  --tertiary: #5495c1;
 
   --poppins: "Poppins", sans-serif;
   --sarpanch: "Sarpanch", sans-serif;
