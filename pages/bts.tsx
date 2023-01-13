@@ -59,7 +59,7 @@ const bts: FunctionComponent = () => {
             />
             <p className="bts-info">
               <span className="bts-highlight">
-                l'option SISR (Solutions Logicielles et Applications métiers)
+                L'option SISR (Solutions Logicielles et Applications métiers)
               </span>{" "}
               dans le BTS SIO a pour objectif de former les étudiants aux
               compétences nécessaires pour concevoir, réaliser, installer,

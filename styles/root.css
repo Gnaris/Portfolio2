@@ -11,11 +11,12 @@
   --primary: #6d7981;
   --secondary: #ffff;
   --tertiary: #5495c1;
+  --background: #373c43;
 
   --poppins: "Poppins", sans-serif;
   --sarpanch: "Sarpanch", sans-serif;
 }
 
 body {
-  background-color: #373c43;
+  background-color: var(--background);
 }

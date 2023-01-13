@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
   width: 98%;
+  margin-top: 50px;
 }
 
 .bts-content {
