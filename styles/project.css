@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  width: 75%;
+  width: 100%;
   margin-top: 25px;
 }
 
@@ -19,6 +19,8 @@
 
 .project-img {
   width: 100%;
+  min-height: 200px;
+  max-height: 200px;
   height: auto;
 }
 

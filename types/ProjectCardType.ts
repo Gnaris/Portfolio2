@@ -4,8 +4,7 @@ type ProjectCardType = {
   title: string;
   description: string;
   code: string;
-  web: string;
-  hasWeb?: boolean;
+  web?: string;
 };
 
 export default ProjectCardType;

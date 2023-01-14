@@ -19,27 +19,15 @@
   gap: 50px;
   padding: 25px 40px;
 
-  background-color: var(--primary);
   border-radius: 15px;
 
   cursor: pointer;
-  animation: slide 1s ease-in;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 .internship-name {
   width: 100%;
 
+  color: var(--secondary);
   font-family: var(--sarpanch);
   text-align: center;
 }
@@ -67,10 +55,13 @@
 
 .internship-time {
   font-size: 20px;
+  color: var(--tertiary);
 }
 
 .internship-paragraphe {
-  font-size: 17px;
+  font-size: 20px;
+  color: var(--primary);
+  font-weight: 600;
 }
 
 .internship-btn {

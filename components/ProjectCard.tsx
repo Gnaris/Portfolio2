@@ -9,7 +9,6 @@ const ProjectCard: FunctionComponent<ProjectCardType> = ({
   description,
   code,
   web,
-  hasWeb = true,
 }) => {
   return (
     <div className="project-card">
@@ -32,7 +31,7 @@ const ProjectCard: FunctionComponent<ProjectCardType> = ({
               Code source
             </a>
           </button>
-          {hasWeb && (
+          {web && (
             <button>
               <a className="project-link" href={web} target="_blank">
                 Site

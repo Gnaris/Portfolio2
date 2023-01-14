@@ -17,17 +17,16 @@ const about: FunctionComponent = () => {
             Lycée Turgot.
           </p>
           <p className="about-main-paragraphe">
-            Depuis mon plus jeune âge, j’ai toujours été attiré par
-            l’informatique et les nouvelles technologies. C’est tout
-            naturellement que je me suis tourné vers ces études surtout au
-            niveau du développement web.
+            Depuis mon enfance, j'ai toujours été passionné par l'informatique
+            et les technologies. C'est pour cette raison que j'ai choisi de
+            poursuivre mes études dans ce domaine, en particulier dans le
+            développement web.
           </p>
           <p className="about-main-paragraphe">
-            Personne motivée, dynamique et autodidacte, j'ai commencé à coder
-            lorsque j'étais encore en terminal, en fillière bac pro commerce.
-            C’est tout naturellement que je me suis orienté dans cette voie,
-            pratiquant des études similaires et des recherches par passion
-            personnelle.
+            En tant que personne motivée, dynamique et autodidacte, j'ai débuté
+            ma pratique en développement en terminale, dans la filière Bac Pro
+            commerce. C'est grâce à cette passion personnelle que j'ai décidé de
+            changer de fillière et de poursuivre dans cette voie.
           </p>
         </div>
       </Main>

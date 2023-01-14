@@ -12,7 +12,34 @@ const project: FunctionComponent = () => {
       title: "Phishing Netflix",
       description: "Travaux Pratique",
       code: "https://github.com/Gnaris/Netflix",
-      web: "https://testp.zd.lu/",
+    },
+    {
+      img: "/crud.jpg",
+      language: "php",
+      title: "Système de gestion de tournoi",
+      description: "Travaux Pratique",
+      code: "https://github.com/Gnaris/Tournoi",
+    },
+    {
+      img: "/gsb.jpg",
+      language: "php",
+      title: "Gestion de comptable et visiteur",
+      description: "Travaux Pratique",
+      code: "https://github.com/Gnaris/ApGSB",
+    },
+    {
+      img: "/fluency.jpg",
+      language: "javascript",
+      title: "Front Office",
+      description: "Stage",
+      code: "https://github.com/Gnaris/Fluency",
+    },
+    {
+      img: "/dicoland.jpg",
+      language: "php",
+      title: "API Rest",
+      description: "Stage",
+      code: "https://github.com/Gnaris/-DicolandApi",
     },
   ];
 
@@ -29,7 +56,6 @@ const project: FunctionComponent = () => {
               description={project.description}
               code={project.code}
               web={project.web}
-              hasWeb={project.hasWeb}
             />
           ))}
         </div>
