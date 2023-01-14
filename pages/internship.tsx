@@ -3,15 +3,15 @@ import React, { FunctionComponent, useState } from "react";
 import Header from "../components/Header";
 import Image from "next/image";
 import Modal from "../components/Modal";
-import { InternshipType } from "../types/InternshipType";
+import InternshipCardType from "../types/InternshipCardType";
 import InternshipCard from "../components/InternshipCard";
 import SectionModal from "../components/SectionModal";
 
 const internship: FunctionComponent = () => {
   const [open1, setOpen1] = useState(false);
-  const [open2, setOpen2] = useState(true);
+  const [open2, setOpen2] = useState(false);
 
-  const internships: InternshipType[] = [
+  const internships: InternshipCardType[] = [
     {
       title: "Fluency",
       img: "/fluency.jpg",

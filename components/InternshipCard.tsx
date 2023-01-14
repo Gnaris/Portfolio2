@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from "react";
 import Image from "next/image";
-import { InternshipType } from "../types/InternshipType";
+import InternshipCardType from "../types/InternshipCardType";
 
-const InternshipCard: FunctionComponent<InternshipType> = ({
+const InternshipCard: FunctionComponent<InternshipCardType> = ({
   title,
   img,
   date,
