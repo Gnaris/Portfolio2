@@ -12,7 +12,7 @@ const watch: FunctionComponent = () => {
         <div className="watch-main-container">
           <WatchSection>
             <h1 className="watch-section-title">
-              C'est quoi une veille technologique ?
+              C&apos;est quoi une veille technologique ?
             </h1>
             <Image
               className="watch-section-img"
@@ -23,11 +23,11 @@ const watch: FunctionComponent = () => {
             />
             <p className="watch-section-description">
               Une veille technologique est un processus continu de collecte,
-              d'analyse et de diffusion d'informations sur les tendances, les
+              d&apos;analyse et de diffusion d&apos;informations sur les tendances, les
               innovations et les évolutions des technologies qui ont un impact
               sur une entreprise ou un domaine spécifique. Elle permet de rester
               informé des dernières avancées et de prendre des décisions
-              éclairées pour adapter les activités de l'entreprise aux
+              éclairées pour adapter les activités de l&apos;entreprise aux
               changements du marché.
             </p>
           </WatchSection>
@@ -40,19 +40,19 @@ const watch: FunctionComponent = () => {
             <ul className="watch-section-list-container">
               <li>
                 Identifier les tendances et les innovations dans son domaine
-                d'activité pour anticiper les évolutions et les changements à
+                d&apos;activité pour anticiper les évolutions et les changements à
                 venir.
               </li>
               <li>
-                Détecter les opportunités d'affaires et les menaces
+                Détecter les opportunités d&apos;affaires et les menaces
                 potentielles.
               </li>
               <li>
-                Améliorer la compétitivité de l'entreprise en adoptant les
+                Améliorer la compétitivité de l&apos;entreprise en adoptant les
                 dernières technologies et en innovant.
               </li>
               <li>
-                Suivre les évolutions réglementaires et les normes pour s'y
+                Suivre les évolutions réglementaires et les normes pour s&apos;y
                 conformer.
               </li>
             </ul>
@@ -61,20 +61,20 @@ const watch: FunctionComponent = () => {
             <h1 className="watch-section-title">React Js</h1>
             <p className="watch-section-description">
               Le sujet de ma veille technologique se portera sur ReactJs. Cette
-              partie de framework est très réputé aujourd'hui par la majorité
+              partie de framework est très réputé aujourd&apos;hui par la majorité
               des développeurs.
             </p>
           </WatchSection>
           <WatchSection>
-            <h1 className="watch-section-title">C'est quoi ReactJs ?</h1>
+            <h1 className="watch-section-title">C&apos;est quoi ReactJs ?</h1>
             <p className="watch-section-description">
               React JS est un cadre JavaScript open-source utilisé pour
               construire des interfaces utilisateur. Il a été développé et est
               maintenu par Facebook. React permet aux développeurs de créer des
               composants UI réutilisables qui peuvent être facilement intégrés
-              dans d'autres applications. Il utilise un concept de "virtual DOM"
-              qui permet de rendre les mises à jour de l'interface plus
-              efficaces en ne ré-affichant que les parties de l'interface qui
+              dans d&apos;autres applications. Il utilise un concept de &quot;virtual DOM&quot;
+              qui permet de rendre les mises à jour de l&apos;interface plus
+              efficaces en ne ré-affichant que les parties de l&apos;interface qui
               ont réellement changé. React est devenu populaire pour construire
               des applications web et des applications mobiles à travers React
               Native.
@@ -91,12 +91,12 @@ const watch: FunctionComponent = () => {
           </WatchSection>
           <WatchSection>
             <h1 className="watch-section-title">
-              Si c'est si populaire, React n'a jamais cherché de solution ?
+              Si c&apos;est si populaire, React n&apos;a jamais cherché de solution ?
             </h1>
             <p className="watch-section-description">
-              Que ce soit chez React ou dans n'importe quelle application front
+              Que ce soit chez React ou dans n&apos;importe quelle application front
               end, les attaques les plus courantes est le XSS (Cross-Site
-              Scription) et l'injection SQL.
+              Scription) et l&apos;injection SQL.
             </p>
           </WatchSection>
           <WatchSection>
@@ -106,12 +106,12 @@ const watch: FunctionComponent = () => {
             </h1>
             <p className="watch-section-description">
               ReactJS est une bibliothèque JavaScript populaire qui est souvent
-              utilisée par les developpeurs. Il est devenu si populaire qu'il
+              utilisée par les developpeurs. Il est devenu si populaire qu&apos;il
               est souvent considéré comme un framework. Malheureusement, sa
               popularité ne protège pas automatiquement les applications React
               contre les attaques de sécurité telles que les injections et XSS.
-              Pour se protéger contre ces types d'attaques, il est important
-              d'utiliser des bibliothèques de sécurité telles que DOMPurify,
+              Pour se protéger contre ces types d&apos;attaques, il est important
+              d&apos;utiliser des bibliothèques de sécurité telles que DOMPurify,
               Json Web Token, PassportJS, etc. Ces bibliothèques sont conçues
               pour aider les développeurs à protéger les applications contre les
               vulnérabilités courantes. <br />
@@ -124,13 +124,13 @@ const watch: FunctionComponent = () => {
               </li>
               <li>
                 <a href="https://stackoverflow.com/questions/33644499/what-does-it-mean-when-they-say-react-is-xss-protected">
-                  JSX empêche les attaques d'injection mais pas sur toutes les
+                  JSX empêche les attaques d&apos;injection mais pas sur toutes les
                   façon.
                 </a>
               </li>
               <li>
                 <a href="https://relevant.software/blog/react-js-security-guide/">
-                  Tout les informations sur la sécurité d'une application React.
+                  Tout les informations sur la sécurité d&apos;une application React.
                 </a>
               </li>
             </ul>

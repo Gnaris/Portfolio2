@@ -50,6 +50,7 @@ const project: FunctionComponent = () => {
         <div className="project-main-container">
           {projects.map((project, index) => (
             <ProjectCard
+            key={index}
               img={project.img}
               language={project.language}
               title={project.title}

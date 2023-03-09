@@ -26,21 +26,21 @@ const bts: FunctionComponent = () => {
             />
             <p className="bts-info">
               <span className="bts-highlight">
-                L'option SLAM (Services de Logiciels et Applications Métiers)
+                L&apos;option SLAM (Services de Logiciels et Applications Métiers)
               </span>{" "}
               dans le BTS SIO vise à former les étudiants à la conception, au
               développement, à la mise en place et à la maintenance des
               logiciels et applications métiers pour les entreprises et les
-              organisations. Cela inclut l'analyse des besoins des utilisateurs,
-              la conception de l'architecture logicielle, le développement du
+              organisations. Cela inclut l&apos;analyse des besoins des utilisateurs,
+              la conception de l&apos;architecture logicielle, le développement du
               code, les tests et la mise en production des applications. Cela
               peut également inclure la maintenance corrective et évolutive des
               applications ainsi que la gestion de versions. Les étudiants
               apprennent également à utiliser les outils et les technologies les
               plus récents pour développer et mettre en place des applications,
-              en s'adaptant aux spécificités de chaque projet, et à respecter
-              les normes de qualité. En somme l'option SLAM est orienté vers le
-              développement d'application métier pour les entreprises et les
+              en s&apos;adaptant aux spécificités de chaque projet, et à respecter
+              les normes de qualité. En somme l&apos;option SLAM est orienté vers le
+              développement d&apos;application métier pour les entreprises et les
               organisations et leur maintenance
             </p>
           </div>
@@ -59,19 +59,19 @@ const bts: FunctionComponent = () => {
             />
             <p className="bts-info">
               <span className="bts-highlight">
-                L'option SISR (Solutions Logicielles et Applications métiers)
+                L&apos;option SISR (Solutions Logicielles et Applications métiers)
               </span>{" "}
               dans le BTS SIO a pour objectif de former les étudiants aux
               compétences nécessaires pour concevoir, réaliser, installer,
-              maintenir et administrer des systèmes d'information dans les
+              maintenir et administrer des systèmes d&apos;information dans les
               entreprises et les organisations. Cela inclut la compréhension des
-              besoins des utilisateurs, l'analyse des fonctionnalités, la
+              besoins des utilisateurs, l&apos;analyse des fonctionnalités, la
               réalisation de spécifications techniques, la mise en place et la
               maintenance des solutions logicielles. Les étudiants apprennent
               également à utiliser les outils et les technologies les plus
               récents pour développer des solutions logicielles adaptées aux
               besoins des utilisateurs, en respectant les normes de qualité et
-              les contraintes de temps et de coûts. En somme l'option SISR est
+              les contraintes de temps et de coûts. En somme l&apos;option SISR est
               plus orienté vers les aspects de développement et de mise en place
               de solution logicielle pour des entreprises et organisations.
             </p>

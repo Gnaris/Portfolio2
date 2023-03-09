@@ -16,8 +16,7 @@ const index: FunctionComponent = () => {
               <span className="portfolio-word">Portfolio</span>
             </h1>
             <p className="home-paragraphe">
-              Vous y retrouverez dans mon portfolio tout les informations
-              concernant ma formation en BTS SIO SLAM
+              Vous retrouverez dans mon portfolio toutes les informations concernant ma formation en BTS SIO SLAM
             </p>
             <Link className="home-btn" href={"/CV.pdf"}>
               Cliquez ici pour voir mon CV

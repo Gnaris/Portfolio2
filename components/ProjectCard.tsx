@@ -27,13 +27,13 @@ const ProjectCard: FunctionComponent<ProjectCardType> = ({
         </div>
         <div className="project-link-container">
           <button>
-            <a className="project-link" href={code} target="_blank">
+            <a className="project-link" href={code} target="_blank" rel="noreferrer">
               Code source
             </a>
           </button>
           {web && (
             <button>
-              <a className="project-link" href={web} target="_blank">
+              <a className="project-link" href={web} target="_blank" rel="noreferrer">
                 Site
               </a>
             </button>
